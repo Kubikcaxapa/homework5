@@ -30,6 +30,7 @@ void main() {
                 System.out.println("Установите облегченную версию для Android");
             }
     }
+
     //Задача 3
     int year = 2021;
     boolean x;
