@@ -23,17 +23,17 @@ void main() {
         System.out.println("если скорость " + speed + " км/ч, то можно ездить спокойно");
     }
     //Задача 4
-    int aga = 3;
-    if (aga > 2 && aga < 6) {
-        System.out.println("Eсли возраст человека равен " + aga + " то он должен ходить в детский сад");
-    } else if (aga > 7 && aga < 17) {
-        System.out.println("Если возраст человека равен "+ aga + " то он должен ходить в школу");
-    } else if (aga >= 18 && aga <= 24) {
-        System.out.println("Если возвраст человека равен "+ aga + " то он должен ходит в университет");
-    } else if (aga > 24) {
-        System.out.println("Если человеку больше "+ aga + " то он должен ходить на работу");
+    int agePeople = 3;
+    if (agePeople >= 2 && agePeople <= 6) {
+        System.out.println("Eсли возраст человека равен " + agePeople + " то он должен ходить в детский сад");
+    } else if (agePeople >= 7 && agePeople <= 17) {
+        System.out.println("Если возраст человека равен "+ agePeople + " то он должен ходить в школу");
+    } else if (agePeople >= 18 && agePeople <= 24) {
+        System.out.println("Если возвраст человека равен "+ agePeople + " то он должен ходит в университет");
+    } else if (agePeople > 24) {
+        System.out.println("Если человеку больше "+ agePeople + " то он должен ходить на работу");
     }
-    //Задача 4
+    //Задача 5
     int baby = 15;
     if (baby < 5) {
         System.out.println("если возраст ребенка равен " + baby + " то ему нельзя кататься на аттракционе");
