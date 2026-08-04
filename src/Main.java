@@ -52,15 +52,15 @@ void main() {
         System.out.println("если человек по счету "+ vagon +  " то мест в вагоне нет");
     }
     //Задача 7
-    int one = 1;
-    int two = 2;
-    int three = 3;
-    if (one >= two && one >= three) {
-        System.out.println("большее число " + one);
-    } else if (two >= one && two >= three) {
-        System.out.println("большее число " + two);
+    int firstNumber = 1;
+    int secondNumber = 2;
+    int thirdNumber = 3;
+    if (firstNumber >= secondNumber && firstNumber >= thirdNumber) {
+        System.out.println("большее число " + firstNumber);
+    } else if (secondNumber >= firstNumber && secondNumber >= thirdNumber) {
+        System.out.println("большее число " + secondNumber);
     } else {
-        System.out.println("большее число " + three);
+        System.out.println("большее число " + thirdNumber);
     }
 }
 
