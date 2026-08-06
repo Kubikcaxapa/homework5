@@ -22,35 +22,38 @@ void main() {
     } else {
         System.out.println("если скорость " + speed + " км/ч, то можно ездить спокойно");
     }
-    //Задача 4
-    int aga = 3;
-    if (aga > 2 && aga < 6) {
-        System.out.println("Eсли возраст человека равен " + aga + " то он должен ходить в детский сад");
-    } else if (aga > 7 && aga < 17) {
-        System.out.println("Если возраст человека равен "+ aga + " то он должен ходить в школу");
-    } else if (aga >= 18 && aga <= 24) {
-        System.out.println("Если возвраст человека равен "+ aga + " то он должен ходит в университет");
-    } else if (aga > 24) {
-        System.out.println("Если человеку больше "+ aga + " то он должен ходить на работу");
+// Задача 4
+    int personAge = 3;
+    if (personAge >= 2 && personAge <= 6) {
+        System.out.println("Если возраст человека равен " + personAge + " то он должен ходить в детский сад");
+    } else if (personAge >= 7 && personAge <= 17) {
+        System.out.println("Если возраст человека равен " + personAge + " то он должен ходить в школу");
+    } else if (personAge >= 18 && personAge <= 24) {
+        System.out.println("Если возраст человека равен " + personAge + " то он должен ходить в университет");
+    } else if (personAge > 24) {
+        System.out.println("Если человеку больше " + personAge + " то он должен ходить на работу");
     }
-    //Задача 4
-    int baby = 15;
-    if (baby < 5) {
-        System.out.println("если возраст ребенка равен " + baby + " то ему нельзя кататься на аттракционе");
-    } else if (baby > 5 && baby <= 14) {
-        System.out.println("если возраст ребенка равен " + baby + " то ему можно кататься на аттракционе в сопровождении взрослого");
-    } else if (baby > 14) {
-        System.out.println("если возраст ребенка равен " + baby + " то ему можно кататься на аттракционах без сопровождения взрослого");
+
+// Задача 5
+    int childAge = 15;
+    if (childAge < 5) {
+        System.out.println("если возраст ребенка равен " + childAge + " то ему нельзя кататься на аттракционе");
+    } else if (childAge >= 5 && childAge <= 14) {
+        System.out.println("если возраст ребенка равен " + childAge + " то ему можно кататься на аттракционе в сопровождении взрослого");
+    } else if (childAge > 14) {
+        System.out.println("если возраст ребенка равен " + childAge + " то ему можно кататься на аттракционах без сопровождения взрослого");
     }
-    //Задача 6
+
+// Задача 6
     int vagon = 60;
-    if (vagon <= 60) {
-        System.out.println("если человек по счету " + vagon + " то есть сидячие места" );
-    } else if (vagon <= 102) {
-        System.out.println("если человек по счету "+ vagon + " то есть стоячее места");
-    } else if (vagon > 102) {
-        System.out.println("если человек по счету "+ vagon +  " то мест в вагоне нет");
+    if (vagon < 60) {
+        System.out.println("если человек по счету " + vagon + " то есть сидячие места");
+    } else if (vagon < 102) {
+        System.out.println("если человек по счету " + vagon + " то есть стоячие места");
+    } else {
+        System.out.println("если человек по счету " + vagon + " то мест в вагоне нет");
     }
+
     //Задача 7
     int firstNumber = 1;
     int secondNumber = 2;
